@@ -22,7 +22,7 @@ server.get('/', async (req, res) => {
 const startServer = async () => {
     try {
         connectDB(process.env.MONGODB_URL)
-        server.listen(3001, () => console.log('Server Has Started On Port http://localhost:3001/'))
+        server.listen(3001, () => console.log('Server Has Started On Port https://dalle-ibwe.onrender.com'))
     } catch (error) {
         console.log(error)
     }
